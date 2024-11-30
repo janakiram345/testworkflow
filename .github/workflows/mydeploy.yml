@@ -42,6 +42,8 @@ jobs:
         with:
           name: dist-files
       - name: Check Files
-        run: ls -lah
+        run: |
+          pwd
+          ls -lah
       - name: Deploy
         run: echo "Deploying..."
