@@ -1,5 +1,5 @@
 name: First Deployment
-on: push
+on: [push, workflow_dispatch]
 jobs:
   tests:
     runs-on: ubuntu-latest
